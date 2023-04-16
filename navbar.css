@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+.nav {
+    background-color: darkslategray;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+a{
+    color: white;
+    margin:0 30px;
+}
+.sign{
+    margin-left: auto;
+}

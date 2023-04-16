@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'forum', serif;
+}
+.hero{
+    background-color: #f08e80;
+    min-height: 90vh;
+    color: white;
+    display: inline-block;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 24px 32px;
+    box-sizing: border-box;
+}
+.navbar .links a{
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+.navbar p{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+.navbar .contact{
+background-color: white;
+color:#f08e80;
+padding: 16px 24px;
+text-decoration: none;
+}
+.navbar .contact:hover{
+    opacity: 0.8;
+}
+.content{
+    padding: 0 15%;
+}
+.tagline{
+    color:white;
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+padding: 32px O;
+}
+.column{
+    font-size: 2rem;
+}
+.column > p{
+width: 50%;
+box-sizing: border-box;
+float: left;
+}
+.column .skills{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+list-style: none;
+padding:0;
+}
+.column .skills li{
+    width: 50%;
+    float: left;
+    font-size: 1.25rem;
+margin: 8px 0;
+}
+.blog{
+    padding: 64px 0;
+}
+.blog-content{
+    padding: 0 15%;
+}
+.column .tech-posts{
+    width: 50%;
+    float: left;
+}
+.blog-heading{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.blog-text{
+    font-size: 1rem;
+}
+.tech-posts{
+    margin-top: 24px;
+}
+.tech-posts .blog-date{
+    font-size: 0.9rem;
+    color: grey;
+    margin-bottom: 32px;
+}
+.tech-posts p{
+    margin: 8px 0;
+}
+.events-section{
+    background-color: #fdf0e6;
+    padding: 64px 0;
+    display: inline-block;
+    width: 100%;
+}
+.events-content{
+    padding: 0 15%;
+}
+.events-card{
+    width: 50%;
+    float: left;
+    margin-top: 24px;
+}
+.events-card p{
+    margin: 8px 0;
+}
+.event-title{
+font-size: 1.5rem;
+}
+.event-location{
+    font-size: 1rem;
+}
+.events-card .event-date{
+    font-size: 0.9rem;
+    color:grey;
+    margin-bottom: 32px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 64px;
+}
+.footer-content{
+    text-align: center;
+}
+footer img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0 8px;
+}
+@media only screen and (max-width:1000px){
+    .hero, .events-content, .tech-posts{
+        padding: 0 5%;
+    }
+}
+@media only screen and (max-width:750px){
+    .tagline{
+        font-size:3.5rem;
+    }
+    .column > p{
+        width: 100%;
+    }
+    .column .skills{
+        width: 100%;
+    }
+    .column .tech-posts{
+        width: 100%;
+    }
+    .section-heading{
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    .events-section .events-content{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:500px){
+    .tagline{
+        font-size:2.5rem;
+        margin: 0;
+    }
+    .links{
+        display: none;
+    }
+    
+}
+
